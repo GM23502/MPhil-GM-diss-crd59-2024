@@ -3,7 +3,6 @@
 A repository to reproduce the analyses explained in Constantino de la Vega's dissertation titled "Identifying molecular actionable exposure that are potentially causative in neurodegenerative diseases", which was submitted for a masters in philosophy to the University of Cambridge in August 2024. 
 
 This repository has the following folders:
-- 0_software: This folder contains some of the software packages used in the study, and guidance on how to download the rest.
 - 1_data_transformation: This folder contains guidance on how to perform the data transformation steps mentioned in Methods section 3.3.1.
 - 2_quality_control&formatting: This folder contains guidance on how to perform the quality control and formatting steps mentioned in Methods section 3.3.2 and 3.3.3, respectively.
 - 3_LD_matrix_&_SuSiE: This folder contains guidance on how to perform LD matrix computation for each gene we analysed, and sum of single effects (SuSiE) fine-mapping, explained in 3.4.
