@@ -1,2 +1,13 @@
-# MPhil-GM-diss-crd59-2024
-A repository containing the code and datasets necessary to run the entire pipeline on chromosome 21 (except for PSP GWAS as this data is not publicly available)
+# Identifying molecular actionable exposure that are potentially causative in neurodegenerative diseases
+
+A repository to reproduce the analyses explained in Constantino de la Vega's dissertation titled "Identifying molecular actionable exposure that are potentially causative in neurodegenerative diseases", which was submitted for a masters in philosophy to the University of Cambridge in August 2024. 
+
+This repository has the following folders:
+- 0_Download_software: This folder contains guidance on how to download the software used in the study.
+- 1_data_transformation: This folder contains guidance on how to perform the data transformation steps mentioned in Methods section 3.3.1.
+- 2_quality_control&formatting: This folder contains guidance on how to perform the quality control and formatting steps mentioned in Methods section 3.3.2 and 3.3.3, respectively.
+- 3_LD_matrix_&_SuSiE: This folder contains guidance on how to perform LD matrix computation for each gene we analysed, and sum of single effects (SuSiE) fine-mapping, explained in 3.4.
+- 3_HyPrColoc: This folder contains guidance on how to perform all the HyPrColoc analyses we performed, expalined in 3.5. Importantly, this folder also contains the code to create Figures 12, 13, 14, 16, 18, 20A-C, and 21A-D.
+- 4_MR: This folder contains the code and data necessary to perform all of our two-sample MR analyses explained in 3.6. Importantly, this folder also contains the code to create Figures 15, 17, 19, 20D, and 21E. 
+
+Additionally, each folder contains its own README file going into further detail about how to carry out each part. It is important to note that since the PSP data is not publicly avialble, I will not include it in the code. 
